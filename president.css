@@ -1,0 +1,151 @@
+/* president.css */
+html,
+body {
+    height: 100%;
+}
+
+body {
+    -webkit-font-smoothing: antaiased;
+    text-rendering: optimizeLegibility;
+    color: #6c6f73;
+    font-family: 'Quicksand';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333
+    font-family: 'Quicksand';
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Quicksand'
+}
+
+img {
+    max-width: 100%;
+}
+
+.blockquote {
+    font-size: 1.6rem;
+    color: #333;
+    border: none;
+    padding: 0;
+    font-family: 'Quicksand';
+}
+
+.blockquote-footer {
+    margin: 1rem 0 0;
+}
+
+#stage {
+    background: url('img/stage.png') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#stage-caption {
+    font-size: 2rem;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+#stage-caption h1 {
+    color: white;
+    font-size: 7rem;
+    font-family: 'Quicksand'
+}
+#cover-text {
+    padding-left: -4rem;
+    padding-right: 10rem;
+}
+
+.feature-content {
+    padding: 8rem 0;
+    overflow: hidden;
+}
+
+.feature-content-down {
+    padding: 8rem 0;
+    overflow hidden;
+}
+
+.feature-content img {
+    margin-bottom: -4rem;
+    margin-top: -4rem;
+}
+.feature-content-down img {
+    margin-top: -4rem;
+    margin-bottom: -8rem;
+}
+
+.feature-content-cover img {
+    margin-bottom: -4rem;
+    margin-left: 4rem;
+}
+
+.feature-dark {
+    background: #526AC5;
+    color: white;
+}
+
+.feature-content-down h1 {
+    font-size: 6rem;
+}
+.feature-content-down h2 {
+    font-size:  4rem;
+}
+
+.feature-content p {
+    font-size: 2rem;
+}
+
+.feature-content-down p {
+    font-size: 2rem;
+}
+.feature-dark h1 {
+    color: white;
+    font-size: 6rem;
+}
+#cover-text img {
+    padding-left: -4;
+}
+
+#main-footer {
+    background: #3E529B;
+    color: white;
+    padding: 6rem 0;
+    font-size: 0.8rem;
+}
+
+#main-footer h6 {
+    color: white;
+}
+
+#main-footer a {
+    color: #1DA1F2;
+}
+
+
+/* Media Querries */
+@media screen and (min-width : 991px ) {
+    .feature-content {
+        display: flex;
+        align-items: center;
+    }
+    .feature-content-down {
+        display: flex;
+        align-items: center;
+    }
+    .feature-content-cover {
+        display: flex;
+        align-items: center;
+    }
+
+}
